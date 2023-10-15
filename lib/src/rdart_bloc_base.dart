@@ -4,8 +4,8 @@ import 'package:bloc/bloc.dart';
 import 'package:rdart/rviews.dart';
 
 class BlocBuilder<B extends Bloc, S> extends Rview {
-  B bloc;
-  Relement Function(S state) builder;
+  final B bloc;
+  final Relement Function(S state) builder;
   BlocBuilder({required this.bloc, required this.builder});
   late StreamSubscription<dynamic> _streamSubscription;
   Relement _currentview = SizeBox();

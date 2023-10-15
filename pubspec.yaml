@@ -1,6 +1,6 @@
 name: rdart_bloc
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
+description: Rdart_Bloc builder if state bloc change.
+version: 0.1.0
 # repository: https://github.com/my_org/my_repo
 
 environment:

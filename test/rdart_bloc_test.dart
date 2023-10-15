@@ -1,16 +1,9 @@
+import 'package:rdart/rviews.dart';
 import 'package:rdart_bloc/rdart_bloc.dart';
 import 'package:test/test.dart';
 
+import 'bloc/test_bloc.dart';
+
 void main() {
-  group('A group of tests', () {
-    final awesome = Awesome();
-
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
-  });
+ 
 }
