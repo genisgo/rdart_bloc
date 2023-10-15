@@ -9,11 +9,8 @@ environment:
 # Add regular dependencies here.
 dependencies:
   bloc: ^8.1.2
-  rdart: 
-    git: 
-      url: https://github.com/genisgo/rdart.git
-      ref: main
-      version: ^0.1.4
+  rdart:
+    path: /Users/adama sogodogo/Documents/rdart
 
 dev_dependencies:
   lints: ^2.0.0
