@@ -10,7 +10,7 @@ environment:
 dependencies:
   bloc: ^8.1.2
   rdart:
-    path: /Users/adama sogodogo/Documents/rdart
+    git: https://github.com/genisgo/rdart.git
 
 dev_dependencies:
   lints: ^2.0.0

@@ -14,7 +14,6 @@ class BlocBuilder<B extends Bloc, S> extends Rview {
   void initState() {
     //  _currentview = builder.call(event);
     _streamSubscription = bloc.stream.listen((event) {
-     // _currentview.getElement.remove();
       _currentview = builder.call(event);
       setState(() {});
     });
